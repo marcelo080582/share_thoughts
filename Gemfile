@@ -36,6 +36,7 @@ gem "twitter-bootstrap-rails"
 gem "jquery-rails"
 gem 'devise'
 gem 'devise-bootstrapped'
+gem 'acts_as_commentable'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

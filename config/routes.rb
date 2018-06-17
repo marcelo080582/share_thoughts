@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   devise_for :users
 
   root to: 'thoughts#index'
+  post '/thought/:thougth_id/observation/', to: 'observations#create', as: 'create_observation'
 end
